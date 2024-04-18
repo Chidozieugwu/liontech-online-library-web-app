@@ -4,8 +4,8 @@ node{
    git branch: 'Dozzy', url: 'https://github.com/Chidozieugwu/liontech-online-library-web-app.git'
   }
 
-state('Build&package-application'){
- sh "${mavenHome}/bin/mvn clean package"
+  stage('Build&package-application'){
+  sh "${mavenHome}/bin/mvn clean package"
 }
 
 
